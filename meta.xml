@@ -1,0 +1,32 @@
+<meta>
+    <oop>true</oop>
+    <info author="LLIEPLLIEHb" description="API FMOD ENGINE" version="0.16.09" />
+
+    <file src="resources\image\accelerate.png"/>  
+    <file src="resources\audio\turbo_shift2.wav" />
+    <file src="resources/fonts/arnamu.ttf" />
+
+    <script src="logic\engine\engine_config.lua" type="shared" />
+    <script src="logic\engine\engine_shared.lua" type="shared" />
+	<script src="logic\engine\engine_server.lua" type="server" />
+	<script src="logic\engine\engine_client.lua" type="client" />
+
+    
+    <script src="logic\fmod\fmod_shared.lua" type="shared" />
+    <script src="logic\fmod\fmod_shader.lua" type="client" />
+    <script src="logic\fmod\fmod_main.lua"   type="client" />
+	
+    
+    <script src="logic\custom_zone\audiozone.lua" type="shared"/>
+    <script src="logic\custom_zone\fmod_audiozone.lua" type="client"/>
+
+
+    <file src="resources\bank\Master.bank" />
+    <file src="resources\bank\Master.strings.bank" />
+    <file src="resources\bank\All-Transport.bank" />
+    <file src="resources\bank\Ambient.bank" />
+
+
+
+
+</meta>
